@@ -191,7 +191,7 @@ O protótipo de alta fidelidade foi desenvolvido no **FigmaMaker**, contemplando
 
 ---
 
-## 👩‍💻 
+## 👩‍💻 Equipe
 
 <div align="center">
 
