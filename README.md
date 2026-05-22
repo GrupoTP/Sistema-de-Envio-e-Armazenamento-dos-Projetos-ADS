@@ -245,11 +245,12 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 ---
 
 <div align="center">
-
+**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva;  — Observatório de Projetos Integradores. Todos os direitos reservados.**
 Feito com 💜 por **Thayná Batista da Silva** e **Polyana Fontes**
 durante o curso de **Análise e Desenvolvimento de Sistemas**
 **Faculdade Senac Recife · 2026**
 
 *Componente Curricular: Engenharia de Requisitos · Docente: Sonia Gomes de Oliveira*
+
 
 </div>
