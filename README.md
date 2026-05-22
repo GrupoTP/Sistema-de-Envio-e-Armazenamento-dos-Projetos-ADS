@@ -191,18 +191,9 @@ O protótipo de alta fidelidade foi desenvolvido no **FigmaMaker**, contemplando
 
 ---
 
-## 👩‍💻 Equipe
+## 👩‍💻 
 
 <div align="center">
-
-### Thayná Batista da Silva
-**Gerente / Analista de Requisitos · Scrum Master**
-**Product Designer · Prototipação de Alta Fidelidade (Figma)**
-
-Aluna de Análise e Desenvolvimento de Sistemas
-Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
-
----
 
 ### Polyana Fontes
 **Desenvolvedora Full Stack · Modelagem de Banco de Dados**
@@ -211,6 +202,14 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 Aluna de Análise e Desenvolvimento de Sistemas
 Faculdade Senac Recife-PE
 
+---
+
+### Thayná Batista da Silva
+**Gerente / Analista de Requisitos · Scrum Master**
+**Product Designer · Prototipação de Alta Fidelidade (Figma)**
+
+Aluna de Análise e Desenvolvimento de Sistemas
+Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 </div>
 
 ---
@@ -221,6 +220,12 @@ Faculdade Senac Recife-PE
 
 ### Thayná Batista da Silva
 
+### Polyana Fontes
+
+<a href="https://github.com/Polyana-Fontes" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+---
 <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
@@ -234,15 +239,6 @@ Faculdade Senac Recife-PE
 📧 [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) · 📱 +55 (81) 97912-6121
 
 <img src="https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cart%C3%A3o%20TEC%20Thayn%C3%A1%20Batista%20da%20Silva.png" width="340" alt="Cartão TEC Thayná Batista da Silva" />
-
----
-
-### Polyana Fontes
-
-<a href="https://github.com/Polyana-Fontes" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
 </div>
 
 ---
