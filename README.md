@@ -218,14 +218,13 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 
 <div align="center">
 
-### Thayná Batista da Silva
-
 ### Polyana Fontes
 
 <a href="https://github.com/Polyana-Fontes" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 ---
+### Thayná Batista da Silva
 <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
