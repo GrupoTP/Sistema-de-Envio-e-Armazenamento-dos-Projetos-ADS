@@ -83,7 +83,7 @@ O processo atual de entrega e avaliação de Projetos Integradores apresenta **4
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades.png?token=GHSAT0AAAAAAD55KXJJTO6FWISVSWN7LEMW2QQ54YQ" width="100%" alt="Slide: Funcionalidades do Sistema" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades.png?token=GHSAT0AAAAAAD55KXJJBDIZM373ZOIVJSMQ2QQ6GUQ" width="100%" alt="Slide: Funcionalidades do Sistema" />
 
 </div>
 
@@ -104,7 +104,7 @@ Solucionamos os gargalos com um sistema completo organizado em módulos:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades%20Diferenciais.png?token=GHSAT0AAAAAAD55KXJIPAMP3QGNHIZRYTRM2QQ56BA" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades%20Diferenciais.png?token=GHSAT0AAAAAAD55KXJIS4YASXCMMJY7UYEY2QQ6HZA" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
 
 </div>
 
@@ -141,7 +141,7 @@ O Observatório foi desenvolvido com funcionalidades originais que o tornam úni
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/ESG.png?token=GHSAT0AAAAAAD55KXJI3WANPFH6PLF3GKE22QQ56TA" width="100%" alt="Slide: Impacto ESG do Projeto" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/ESG.png?token=GHSAT0AAAAAAD55KXJIILTZA6PNWXUP2SWE2QQ6ILQ" width="100%" alt="Slide: Impacto ESG do Projeto" />
 
 </div>
 
@@ -159,7 +159,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Mercado.png?token=GHSAT0AAAAAAD55KXJIXC2DTODNOVE7UGTS2QQ57DA" width="100%" alt="Slide: Análise de Mercado" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Mercado.png?token=GHSAT0AAAAAAD55KXJJOCFMNYCK4T32BHEO2QQ6I2Q" width="100%" alt="Slide: Análise de Mercado" />
 
 </div>
 
@@ -173,7 +173,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Benchmark.png?token=GHSAT0AAAAAAD55KXJJACGEUBLFRORV2RQE2QQ57PA" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Benchmark.png?token=GHSAT0AAAAAAD55KXJJKOVMUVJRSRJC2MYY2QQ6JYQ" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
 
 </div>
 
@@ -195,7 +195,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Modelo%20de%20Neg%C3%B3cio.png?token=GHSAT0AAAAAAD55KXJICWNDASFRAEZPUITM2QQ6BKQ" width="100%" alt="Slide: Modelo de Negócio" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Modelo%20de%20Neg%C3%B3cio.png?token=GHSAT0AAAAAAD55KXJJ24NMA5FYXBFK5YEM2QQ6KLA" width="100%" alt="Slide: Modelo de Negócio" />
 
 </div>
 
