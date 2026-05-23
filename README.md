@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Senac_logo.svg.png?token=GHSAT0AAAAAAD55KXJI3T34RRPJXVJ4ITDY2QQ6EQQ" width="140" alt="Logo Senac" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Logo Senac" />
 
 # 🎓 Observatório de Projetos Integradores
 
