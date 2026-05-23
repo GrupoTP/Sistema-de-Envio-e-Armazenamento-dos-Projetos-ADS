@@ -62,7 +62,7 @@ A plataforma conta com perfis específicos para **Alunos**, **Professores** e **
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Problema.png?token=GHSAT0AAAAAAD55KXJJZW4462XHVQ6ZA6F62QQ53EQ" width="100%" alt="Slide: O Problema — 4 gargalos críticos do processo atual" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Problema.png?token=GHSAT0AAAAAAD55KXJJ43LN3T6HBIRKKPQA2QQ6FJQ" width="100%" alt="Slide: O Problema — 4 gargalos críticos do processo atual" />
 
 </div>
 
