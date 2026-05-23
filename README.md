@@ -403,3 +403,415 @@ durante o curso de **Análise e Desenvolvimento de Sistemas**
 *Componente Curricular: Engenharia de Requisitos · Docente: Sonia Gomes de Oliveira*
 
 </div>
+
+---
+
+</div>
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Senac Logo" />
+
+# 🎓 Integrative Projects Observatory
+
+**Faculdade Senac Recife · Systems Analysis and Development Course**
+
+*January – June 2026*
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Institution](https://img.shields.io/badge/Faculdade-Senac%20Recife-red?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-ADS-blue?style=for-the-badge)
+![Year](https://img.shields.io/badge/2026-Jan%20–%20Jun-purple?style=for-the-badge)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Capa.png?raw=true" width="100%" alt="Project Cover — Integrative Projects Observatory" />
+
+</div>
+
+---
+
+## 📋 Index
+
+- [About the Project](#-about-the-project)
+- [The Problem](#-the-problem)
+- [The Solution — Features](#-the-solution--features)
+- [System Differentiators](#-system-differentiators)
+- [ESG Impact](#-esg-impact)
+- [Market](#-market)
+- [Benchmark](#-benchmark)
+- [Business Model](#-business-model)
+- [Target Audience](#-target-audience)
+- [User Profiles](#-user-profiles)
+- [Grading System](#-grading-system)
+- [Legislation and Compliance](#-legislation-and-compliance)
+- [Technologies](#-technologies)
+- [Prototype and Team](#-prototype-and-team)
+- [Team](#-team)
+- [Contact](#-contact)
+
+---
+
+## 📖 About the Project
+
+The **Integrative Projects Observatory** is a web platform developed for **Faculdade Senac Recife**, designed to centralize and streamline the submission, validation, and evaluation of **Integrative Projects** for the **Systems Analysis and Development** course.
+
+The system replaces scattered, manual workflows with a unified repository of projects, accessible to:
+- **Students** — to build an official professional portfolio.
+- **Teachers and Coordinators** — to conduct structured academic evaluation.
+
+> _"A centralized platform for project submission, deadline tracking, rubric‑based feedback, and portfolio generation with achievement badges."_
+
+The platform offers tailored profiles for **Students**, **Teachers**, and **Administrators**, ensuring a structured workflow from project conception to final grade, with full traceability of all submissions.
+
+---
+
+## 🚨 The Problem
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Problema.png" width="100%" alt="Slide: The Problem — 4 critical bottlenecks of the current process" />
+
+</div>
+
+The current process for submitting and evaluating Integrative Projects faces **4 critical bottlenecks**:
+
+| # | Bottleneck | Impact |
+|:---:|---|---|
+| 1 | **Fragmentation** | Information scattered across multiple channels and tools |
+| 2 | **Invisibility** | Projects lack institutional visibility and an organized portfolio |
+| 3 | **Rework** | Manual processes repeated every semester |
+| 4 | **Lack of Governance** | No control, traceability, or LGPD compliance |
+
+> _"These bottlenecks waste time, visibility, and institutional credibility."_
+
+---
+
+## ✨ The Solution — Features
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades.png" width="100%" alt="Slide: System Features" />
+
+</div>
+
+The Observatory addresses these bottlenecks with a complete, modular system:
+
+| Module | What it delivers |
+|---|---|
+| 🖥️ **Dashboard** | Real‑time overview of submissions, deadlines, and status |
+| 📁 **Projects** | Upload of files (PDF/ZIP), demo video link, and project description |
+| 👤 **Profiles** | Management of Students, Teachers, and Administrators with distinct permissions |
+| 🔐 **Authentication** | Single‑sign‑on per profile, with primary and secondary email support |
+| 📊 **Reports** | Export of deliveries and evaluation history |
+| 🌐 **Public Observatory** | Institutional showcase of approved projects |
+
+---
+
+## 🚀 System Differentiators
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades%20Diferenciais.png" width="100%" alt="Slide: Unique Features of the Observatory" />
+
+</div>
+
+The Observatory includes original features that make it stand out in the academic context of **Faculdade Senac Recife**:
+
+### 🔐 Authentication and Access
+- **Multiple login emails** — institutional email (primary) or student‑chosen email (secondary), both valid for login.
+- **Profile selection screen** — users with multiple roles (Student, Teacher, Administrator) choose which profile to use per session.
+
+### 🛡️ Administration Rules
+- **Minimum of 2 Admins** — actions that reduce active admins below 2 are blocked, preventing total lockout.
+- **Admin recovery** — dedicated recovery mechanism if all admin accounts are lost.
+- **Admin‑only registration** — only Administrators can create new users.
+- **Activate / Deactivate profiles** — suspend a profile without deleting it, preserving all history and data.
+
+### ⚙️ Settings and Personalization
+- **Social Name** — registered and editable in settings, automatically reused across the system.
+- **Two phone numbers** — up to 2 contact numbers can be stored in user settings.
+- **Usage records** — account creation date and last login displayed automatically on the settings screen.
+
+### 🧭 Navigation and Interface
+- **Universal back icon** — present on every page for every profile, returning to the current profile’s Home page.
+- **Floating menu** — available on all pages, with a header containing the Senac logo and the current panel name.
+
+### 📝 Forms and Validation
+- **Visual required‑field indicators** — clear visual cues on all mandatory fields, reducing submission errors.
+
+### 🎓 CV and Portfolio
+- **Dedicated CV/Portfolio screen** — real‑time preview for Students and Teachers, with competencies shown as AI‑scannable tags.
+
+---
+
+## 🌱 ESG Impact
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/ESG.png" width="100%" alt="Slide: ESG Impact of the Project" />
+
+</div>
+
+The Integrative Projects Observatory was designed with responsibility across three dimensions:
+
+| Dimension | Action |
+|---|---|
+| 🌿 **Environmental (E)** | Eliminates physical printing and redundant emails; fully digitizes the academic workflow |
+| 🤝 **Social (S)** | Provides an official digital portfolio for students, boosting professional opportunities |
+| 🏛️ **Governance (G)** | LGPD‑compliant access control, audit logs, and structured data governance |
+
+---
+
+## 📈 Market
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Mercado.png" width="100%" alt="Slide: Market Analysis" />
+
+</div>
+
+- 💰 By 2025, the edtech market invested **US$ 340 million** in Brazil.  
+- 🌎 Brazil ranks among the top countries in the **Global Digital Education Ranking**.  
+- 🏫 Senac has over **500 units** nationwide — making the Observatory a **highly scalable, replicable solution**.
+
+---
+
+## 🔍 Benchmark
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Benchmark.png" width="100%" alt="Slide: Why the Observatory?" />
+
+</div>
+
+### Why build the Observatory instead of using existing tools?
+
+| Criterion | Google Classroom | Moodle | GitHub + Drive | ✅ **Observatory** |
+|---|:---:|:---:|:---:|:---:|
+| Focused on integrative projects | ❌ | ❌ | ❌ | ✅ |
+| Public portfolio | ❌ | ❌ | Partial | ✅ |
+| Multiple profiles with permissions | Partial | Partial | ❌ | ✅ |
+| Native LGPD compliance | ❌ | ❌ | ❌ | ✅ |
+| Integrated management (submission + validation + evaluation) | ❌ | Partial | ❌ | ✅ |
+
+> _The Observatory outperforms generic tools in institutional focus, governance, and portfolio‑oriented flows._
+
+---
+
+## 💼 Business Model
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Modelo%20de%20Neg%C3%B3cio.png" width="100%" alt="Slide: Business Model" />
+
+</div>
+
+**Value delivered to Senac:**
+- Drastically reduced rework in semester‑based evaluation cycles.
+- A scalable product that can be replicated across other Senac units (SaaS‑like model).
+
+**Value delivered to Students:**
+- Official, traceable portfolio linked to the institution.
+- Visibility to **partner companies** through the public Observatory.
+
+---
+
+## 🎯 Target Audience
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/P%C3%BAblico%20Alvo.png" width="100%" alt="Slide: Target Audience" />
+
+</div>
+
+> _"Transforming academic management into institutional intelligence."_
+
+The Integrative Projects Observatory targets three complementary profiles at **Faculdade Senac Recife**:
+
+<details>
+<summary><strong>🎓 Student</strong></summary>
+
+- Age range: 18–45 years.
+- Uploads project files, demo video link, and description.
+- Tracks submission approval status in real time.
+- Views feedback and final grades from professors.
+- Builds and shares a professional CV/portfolio.
+- Uses the platform mainly during submission periods each semester.
+
+</details>
+
+<details>
+<summary><strong>👩‍🏫 Teacher</strong></summary>
+
+- Age range: 25–65 years.
+- Accesses a list of projects approved by Coordinators/Administrators.
+- Grades via rubric (Functionality, Documentation, Creativity; 0–10).
+- Leaves detailed feedback comments.
+- Can consult the historical repository for academic reference.
+- Uses the platform mainly during evaluation periods.
+
+</details>
+
+<details>
+<summary><strong>🏛️ Coordinator / Administrator</strong></summary>
+
+- Age range: 30–60 years.
+- Validates submissions: approves or rejects projects for evaluation.
+- Registers, edits, and manages student and teacher profiles.
+- Activates and deactivates profiles without permanent deletion.
+- Only user allowed to change a user’s primary email.
+- Uses the platform continuously, with higher activity during submission seasons.
+
+</details>
+
+---
+
+## 🎨 Grading System
+
+Grades shown to students are **color‑coded** and support **sorting from best to worst**, making results more intuitive and accessible.
+
+| Abbreviation | Description | Range | Color |
+|:---:|---|:---:|:---:|
+| **AE** | Met with Excellence | 9.5 — 10 | 🟢 GREEN |
+| **O**  | Great | 8.0 — 9.4 | 🔵 BLUE |
+| **B**  | Good | 6.5 — 7.9 | 🟡 YELLOW |
+| **ANS** | Not Yet Sufficient | 4.0 — 6.4 | 🟠 ORANGE |
+| **I**  | Insufficient | 0.0 — 3.9 | 🔴 RED |
+
+---
+
+## ⚖️ Legislation and Compliance
+
+The system was developed in full compliance with current Brazilian legislation:
+
+- 🔒 **LGPD — Law No. 13.709/2018** · Protects personal data of students and teachers, with audit logs, access control, and consent management for sensitive data.  
+- 🌐 **Marco Civil da Internet — Law No. 12.965/2014** · Ensures retention of access records and user privacy.  
+- 🎓 **LDB — Law No. 9.394/1996** · Follows national educational guidelines and academic confidentiality standards.  
+- ✍️ **Copyright Law — Law No. 9.610/1998** · Guarantees authorship rights for all student‑submitted projects.  
+- 🏫 **Senac Recife internal regulations** · Adheres to academic rules and institutional IT policies.
+
+---
+
+## 🛠️ Technologies
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Encerramento.png" width="100%" alt="Slide: Closing — Tech Stack" />
+
+</div>
+
+The platform centralizes submission, validation, and evaluation of Integrative Projects, built with full LGPD compliance and the following technologies:
+
+<div align="center">
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Ktor](https://img.shields.io/badge/Ktor-0095D5?style=for-the-badge&logo=ktor&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![YouTrack](https://img.shields.io/badge/YouTrack-000000?style=for-the-badge&logo=youtrack&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
+| Layer | Technology |
+|---|---|
+| **Backend** | Kotlin + Ktor |
+| **Database** | SQL (relational modeling) |
+| **Project Management** | YouTrack |
+| **Design / Prototyping** | Figma / FigmaMaker |
+| **Versioning** | Git / GitHub |
+| **Security** | HTTPS, profile‑based authentication, LGPD compliance |
+
+---
+
+## 🖥️ Prototype and Team
+
+<div align="center">
+
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Equipe_Prot%C3%B3tipo.png" width="100%" alt="Slide: Team and Prototype" />
+
+</div>
+
+The high‑fidelity prototype was developed in **FigmaMaker**, covering all main user flows for each profile.
+
+<div align="center">
+
+[![View Prototype on Figma](https://img.shields.io/badge/View%20Prototype%20on%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/6PLVp9KMc4E00q1DhgzxM0/OBSERVATORIO-DE-PROJETOS-INTEGRADORES-FACULDADE-SENAC?fullscreen=1&t=EgHVDl4rL7Kb4xUX-1&preview-route=%2Flogin)
+
+[![View Repository on GitHub](https://img.shields.io/badge/View%20Repository%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
+
+</div>
+
+---
+
+## 👩‍💻 Team
+
+<div align="center">
+
+### Polyana Fontes  
+**Full Stack Developer · Database Modeling · Technical Documentation**
+
+Student of Systems Analysis and Development  
+Faculdade Senac Recife-PE  
+
+---
+
+### Thayná Batista da Silva  
+**Manager / Requirements Analyst · Scrum Master**  
+**Product Designer · High‑fidelity Prototyping (Figma)**
+
+Student of Systems Analysis and Development  
+Faculdade Senac Recife‑PE · Class 2025 · Expected graduation: 2027  
+
+</div>
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+### Polyana Fontes
+
+<a href="https://github.com/Polyana-Fontes" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+### Thayná Batista da Silva
+
+<a href="https://br.linkedin.com/in/thaynabds" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://www.instagram.com/thaynabdstec/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="mailto:thaynabdstec@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+📧 [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) · 📱 +55 (81) 97912‑6121
+
+<img src="https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cart%C3%A1o%20TEC%20Thayn%C3%A1%20Batista%20da%20Silva.png" width="340" alt="TEC Card Thayná Batista da Silva" />
+
+</div>
+
+---
+
+<div align="center">
+
+**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Integrative Projects Observatory. All rights reserved.**
+
+Made with 💜 by **Thayná Batista da Silva** and **Polyana Fontes**  
+during the **Systems Analysis and Development** course  
+**Faculdade Senac Recife · 2026**
+
+*Course Component: Requirements Engineering · Instructor: Sonia Gomes de Oliveira*
+
+</div>
