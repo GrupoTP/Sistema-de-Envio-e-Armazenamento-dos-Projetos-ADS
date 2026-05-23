@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Senac_logo.svg.png?token=GHSAT0AAAAAAD55KXJI7BFQOJUXUQFVFTOY2QQ5U7A" width="140" alt="Logo Senac" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Senac_logo.svg.png?token=GHSAT0AAAAAAD55KXJI3T34RRPJXVJ4ITDY2QQ6EQQ" width="140" alt="Logo Senac" />
 
 # 🎓 Observatório de Projetos Integradores
 
@@ -289,7 +289,7 @@ O sistema foi desenvolvido em plena conformidade com a legislação brasileira v
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Encerramento.png?token=GHSAT0AAAAAAD55KXJJYB5L637VB7VYHBSM2QQ5TXA" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Encerramento.png?token=GHSAT0AAAAAAD55KXJJHG6TFZ6FVOYW4FLS2QQ6DLQ" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
 
 </div>
 
@@ -321,7 +321,7 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Equipe_Prot%C3%B3tipo.png?token=GHSAT0AAAAAAD55KXJJ4UBTMMA5FZCNWUOY2QQ5UNA" width="100%" alt="Slide: Equipe e Protótipo" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Equipe_Prot%C3%B3tipo.png?token=GHSAT0AAAAAAD55KXJJJXOMUAN7NSD6URZS2QQ6ECA" width="100%" alt="Slide: Equipe e Protótipo" />
 
 </div>
 
