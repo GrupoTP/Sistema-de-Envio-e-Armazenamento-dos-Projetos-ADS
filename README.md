@@ -195,7 +195,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Modelo%20de%20Neg%C3%B3cio.png?token=GHSAT0AAAAAAD55KXJJEEPBTQCYVKMXQSLK2QQ5SCQ" width="100%" alt="Slide: Modelo de Negócio" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Modelo%20de%20Neg%C3%B3cio.png?token=GHSAT0AAAAAAD55KXJICWNDASFRAEZPUITM2QQ6BKQ" width="100%" alt="Slide: Modelo de Negócio" />
 
 </div>
 
@@ -213,7 +213,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/P%C3%BAblico%20Alvo.png?token=GHSAT0AAAAAAD55KXJIGG25GKBMHXAUNTHA2QQ5S5Q" width="100%" alt="Slide: Público-Alvo" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/P%C3%BAblico%20Alvo.png?token=GHSAT0AAAAAAD55KXJI3G63MB5VAQSXXFWE2QQ6BVQ" width="100%" alt="Slide: Público-Alvo" />
 
 </div>
 
