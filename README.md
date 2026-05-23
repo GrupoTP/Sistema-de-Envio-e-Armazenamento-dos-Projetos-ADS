@@ -62,7 +62,7 @@ A plataforma conta com perfis específicos para **Alunos**, **Professores** e **
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Problema.png?token=GHSAT0AAAAAAD55KXJJ43LN3T6HBIRKKPQA2QQ6FJQ" width="100%" alt="Slide: O Problema — 4 gargalos críticos do processo atual" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Problema.png" width="100%" alt="Slide: O Problema — 4 gargalos críticos do processo atual" />
 
 </div>
 
@@ -83,7 +83,7 @@ O processo atual de entrega e avaliação de Projetos Integradores apresenta **4
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades.png?token=GHSAT0AAAAAAD55KXJJBDIZM373ZOIVJSMQ2QQ6GUQ" width="100%" alt="Slide: Funcionalidades do Sistema" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades.png" width="100%" alt="Slide: Funcionalidades do Sistema" />
 
 </div>
 
@@ -104,7 +104,7 @@ Solucionamos os gargalos com um sistema completo organizado em módulos:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades%20Diferenciais.png?token=GHSAT0AAAAAAD55KXJIS4YASXCMMJY7UYEY2QQ6HZA" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades%20Diferenciais.png" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
 
 </div>
 
@@ -141,7 +141,7 @@ O Observatório foi desenvolvido com funcionalidades originais que o tornam úni
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/ESG.png?token=GHSAT0AAAAAAD55KXJIILTZA6PNWXUP2SWE2QQ6ILQ" width="100%" alt="Slide: Impacto ESG do Projeto" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/ESG.png" width="100%" alt="Slide: Impacto ESG do Projeto" />
 
 </div>
 
@@ -159,7 +159,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Mercado.png?token=GHSAT0AAAAAAD55KXJJOCFMNYCK4T32BHEO2QQ6I2Q" width="100%" alt="Slide: Análise de Mercado" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Mercado.png" width="100%" alt="Slide: Análise de Mercado" />
 
 </div>
 
@@ -173,7 +173,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Benchmark.png?token=GHSAT0AAAAAAD55KXJJKOVMUVJRSRJC2MYY2QQ6JYQ" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Benchmark.png" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
 
 </div>
 
@@ -195,7 +195,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Modelo%20de%20Neg%C3%B3cio.png?token=GHSAT0AAAAAAD55KXJJ24NMA5FYXBFK5YEM2QQ6KLA" width="100%" alt="Slide: Modelo de Negócio" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Modelo%20de%20Neg%C3%B3cio.png" width="100%" alt="Slide: Modelo de Negócio" />
 
 </div>
 
@@ -213,7 +213,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/P%C3%BAblico%20Alvo.png?token=GHSAT0AAAAAAD55KXJI3G63MB5VAQSXXFWE2QQ6BVQ" width="100%" alt="Slide: Público-Alvo" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/P%C3%BAblico%20Alvo.png" width="100%" alt="Slide: Público-Alvo" />
 
 </div>
 
@@ -289,7 +289,7 @@ O sistema foi desenvolvido em plena conformidade com a legislação brasileira v
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Encerramento.png?token=GHSAT0AAAAAAD55KXJJHG6TFZ6FVOYW4FLS2QQ6DLQ" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Encerramento.png" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
 
 </div>
 
@@ -321,7 +321,7 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Equipe_Prot%C3%B3tipo.png?token=GHSAT0AAAAAAD55KXJJJXOMUAN7NSD6URZS2QQ6ECA" width="100%" alt="Slide: Equipe e Protótipo" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Equipe_Prot%C3%B3tipo.png" width="100%" alt="Slide: Equipe e Protótipo" />
 
 </div>
 
