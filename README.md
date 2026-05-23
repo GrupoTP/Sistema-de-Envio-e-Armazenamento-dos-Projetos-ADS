@@ -104,7 +104,7 @@ Solucionamos os gargalos com um sistema completo organizado em módulos:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades%20Diferenciais.png?token=GHSAT0AAAAAAD55KXJIUQDLHWHYG4W4RAOE2QQ5N4Q" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Funcionalidades%20Diferenciais.png?token=GHSAT0AAAAAAD55KXJIPAMP3QGNHIZRYTRM2QQ56BA" width="100%" alt="Slide: Funcionalidades Diferenciais do Observatório" />
 
 </div>
 
@@ -141,7 +141,7 @@ O Observatório foi desenvolvido com funcionalidades originais que o tornam úni
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/ESG.png?token=GHSAT0AAAAAAD55KXJJALQZ4MPZ5DTQZKAA2QQ5QEA" width="100%" alt="Slide: Impacto ESG do Projeto" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/ESG.png?token=GHSAT0AAAAAAD55KXJI3WANPFH6PLF3GKE22QQ56TA" width="100%" alt="Slide: Impacto ESG do Projeto" />
 
 </div>
 
@@ -159,7 +159,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Mercado.png?token=GHSAT0AAAAAAD55KXJIROJ7OQXVSHNUWX2C2QQ5QVQ" width="100%" alt="Slide: Análise de Mercado" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Mercado.png?token=GHSAT0AAAAAAD55KXJIXC2DTODNOVE7UGTS2QQ57DA" width="100%" alt="Slide: Análise de Mercado" />
 
 </div>
 
@@ -173,7 +173,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Benchmark.png?token=GHSAT0AAAAAAD55KXJJ2NKI7FV4PCZVRKCE2QQ5RFA" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
+<img src="https://raw.githubusercontent.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/refs/heads/main/Benchmark.png?token=GHSAT0AAAAAAD55KXJJACGEUBLFRORV2RQE2QQ57PA" width="100%" alt="Slide: Benchmark — Por que o Observatório?" />
 
 </div>
 
