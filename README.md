@@ -787,7 +787,7 @@ Faculdade Senac Recife‑PE · Class 2025 · Expected graduation: 2027
 ### Thayná Batista da Silva
 
 <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png" />
 </a>
 <a href="https://www.instagram.com/thaynabdstec/" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
