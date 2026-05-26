@@ -361,6 +361,7 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 ---
 
 ## 📬 Contato
+Want to know more about the project or get in touch? 🤝
 
 <div align="center">
 
@@ -372,26 +373,37 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 
 ---
 
-### Thayná Batista da Silva
+<div align="center">
 
-<a href="https://br.linkedin.com/in/thaynabds" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/thaynabdstec/" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="mailto:thaynabdstec@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+  <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  
+  <a href="https://www.instagram.com/thaynabdstec/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 
-📧 [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) · 📱 +55 (81) 97912-6121
+</div>
 
-<img src="https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cart%C3%A3o%20TEC%20Thayn%C3%A1%20Batista%20da%20Silva.png" width="340" alt="Cartão TEC Thayná Batista da Silva" />
+📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
+
+📱 **Phone:** +55 (81) 97912-6121 📞
+
+---
+
+<div align="center">
+
+### 👤 Thayná Batista da Silva
+**Scrum Master • Product Designer • Requirements Analyst** 💼
+
+Senac Recife-PE Faculty | Systems Analysis and Development 🎓
+
+![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
 </div>
 
 ---
-
+## 📄 License
 <div align="center">
 
 **Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Observatório de Projetos Integradores. Todos os direitos reservados.**
@@ -773,6 +785,7 @@ Faculdade Senac Recife‑PE · Class 2025 · Expected graduation: 2027
 ---
 
 ## 📬 Contact
+Want to know more about the project or get in touch? 🤝
 
 <div align="center">
 
@@ -784,27 +797,38 @@ Faculdade Senac Recife‑PE · Class 2025 · Expected graduation: 2027
 
 ---
 
-### Thayná Batista da Silva
+<div align="center">
 
-<a href="https://br.linkedin.com/in/thaynabds" target="_blank">
-  <img src="https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png" />
-</a>
-<a href="https://www.instagram.com/thaynabdstec/" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="mailto:thaynabdstec@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+  <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  
+  <a href="https://www.instagram.com/thaynabdstec/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 
-📧 [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) · 📱 +55 (81) 97912-6121
+</div>
 
-<img src="https://raw.githubusercontent.com/thaynabds/AppMedSmart/refs/heads/main/Cart%C3%A3o%20TEC%20Thayn%C3%A1%20Batista%20da%20Silva.png" width="340" alt="Cartão TEC Thayná Batista da Silva" />
+📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
 
+📱 **Phone:** +55 (81) 97912-6121 📞
+
+---
+
+<div align="center">
+
+### 👤 Thayná Batista da Silva
+**Scrum Master • Product Designer • Requirements Analyst** 💼
+
+Senac Recife-PE Faculty | Systems Analysis and Development 🎓
+
+![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
 </div>
 
 ---
 
+## 📄 License
 <div align="center">
 
 **Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Integrative Projects Observatory. All rights reserved.**
