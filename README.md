@@ -361,7 +361,7 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 ---
 
 ## 📬 Contato
-Want to know more about the project or get in touch? 🤝
+Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
 <div align="center">
 
