@@ -84,6 +84,7 @@ O processo atual de entrega e avaliação de Projetos Integradores apresenta **4
 <div align="center">
 
 <img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades.png" width="100%" alt="Slide: Funcionalidades do Sistema" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades%20Diferenciais.png" width="100%" alt="Slide: Funcionalidades do Sistema" />
 
 </div>
 
