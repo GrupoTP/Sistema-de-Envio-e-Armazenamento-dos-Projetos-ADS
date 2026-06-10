@@ -31,16 +31,25 @@
 - [O Problema](#-o-problema)
 - [A Solução — Funcionalidades](#-a-solução--funcionalidades)
 - [Diferenciais do Sistema](#-diferenciais-do-sistema)
+- [Especificações Técnicas e Regras de Negócio](#-especificações-técnicas-e-regras-de-negócio)
+  - [Contexto do Sistema](#contexto-do-sistema)
+  - [Tela de Login](#tela-de-login)
+  - [Regras de Cadastro de Usuários](#regras-de-cadastro-de-usuários)
+  - [Campos Obrigatórios no Cadastro](#campos-obrigatórios-no-cadastro)
+  - [Campos Não Obrigatórios no Cadastro](#campos-não-obrigatórios-no-cadastro)
+  - [Regras de E-mail](#regras-de-e-mail)
+  - [Tela de Configurações do Perfil](#tela-de-configurações-do-perfil)
+  - [Tela de Criação de Currículo/Portfólio](#tela-de-criação-de-currículoportfólio)
+- [Sistema de Notas](#-sistema-de-notas)
 - [Impacto ESG](#-impacto-esg)
 - [Mercado](#-mercado)
 - [Benchmark](#-benchmark)
 - [Modelo de Negócio](#-modelo-de-negócio)
 - [Público-Alvo](#-público-alvo)
-- [Perfis de Usuário](#-perfis-de-usuário)
-- [Sistema de Notas](#-sistema-de-notas)
 - [Legislação e Conformidade](#-legislação-e-conformidade)
 - [Tecnologias](#-tecnologias)
 - [Protótipo e Equipe](#-protótipo-e-equipe)
+- [Credenciais Padrão de Demonstração](#-credenciais-padrão-de-demonstração)
 - [Equipe](#-equipe)
 - [Contato](#-contato)
 
@@ -112,17 +121,18 @@ O Observatório foi desenvolvido com funcionalidades originais que o tornam úni
 
 ### 🔐 Autenticação e Acesso
 - **Autenticação múltipla de login** — e-mail institucional (primário) **ou** e-mail escolhido pelo próprio aluno (secundário), ambos funcionais para login
-- **Tela de seleção de perfil** — usuários que acumulam múltiplos papéis (Aluno, Professor, Administrador) escolhem com qual perfil desejam acessar a cada sessão
+- **Tela de seleção de perfil** — usuários que acumulam múltiplos papéis (Aluno, Professor, Administrador, Coordenador) escolhem com qual perfil desejam acessar a cada sessão
+- **Alternância de perfil** — disponível apenas para usuários que possuam mais de um perfil cadastrado
 
 ### 🛡️ Regras de Administração
-- **Mínimo obrigatório de 2 ADMs** — o sistema bloqueia ações que reduzam os administradores ativos abaixo de 2, prevenindo travamento total
+- **Mínimo obrigatório de 2 ADMs/Coordenadores** — o sistema bloqueia ações que reduzam os administradores/coordenadores ativos abaixo de 2, prevenindo travamento total
 - **Recuperação de ADM** — mecanismo especial de restauração de acesso caso todas as contas administrativas sejam perdidas
-- **Tela de cadastro exclusiva do ADM** — somente o Administrador pode criar novos usuários no sistema
+- **Tela de cadastro exclusiva do ADM** — somente o Administrador pode criar novos usuários no sistema; o Professor **não tem acesso** à tela de cadastro de usuários
 - **Ativar / Desativar perfis** — o ADM pode suspender um perfil sem excluí-lo, preservando todo o histórico e dados vinculados
 
 ### ⚙️ Configurações e Personalização
 - **Nome Social** — cadastrável e modificável nas configurações, reutilizado em todo o sistema automaticamente
-- **Dois telefones cadastráveis** — o usuário pode registrar até 2 números de contato nas configurações
+- **Dois telefones cadastráveis** — o usuário pode registrar até 2 números de contato nas configurações, ambos com opção de sinalizar que é WhatsApp
 - **Registro de utilização da plataforma** — data de criação da conta e data do último login exibidos automaticamente na tela de configurações
 
 ### 🧭 Navegação e Interface
@@ -130,10 +140,312 @@ O Observatório foi desenvolvido com funcionalidades originais que o tornam úni
 - **Menu volante em todas as páginas** — acessível em qualquer tela, exibindo cabeçalho com o ícone do Senac e o nome do Painel em uso
 
 ### 📝 Formulários e Validação
-- **Sinalização visual de campos obrigatórios** — marcação visual clara e imediata em todos os campos obrigatórios, evitando erros de submissão
+- **Sinalização visual de campos obrigatórios** — todo campo obrigatório possui marcação visual clara e imediata, visível para o usuário, evitando erros de submissão
 
 ### 🎓 Currículo e Portfólio
-- **Tela dedicada de Currículo/Portfólio** — preview em tempo real para Professores e Alunos, com competências em formato de tags escaneáveis por IA
+- **Tela dedicada de Currículo/Portfólio** para Professores e Alunos
+- **Preview em tempo real** do currículo/portfólio, atualizado conforme o usuário preenche os campos
+- **Opção de visibilidade por campo** — cada informação do currículo pode ser configurada para aparecer ou não para contratantes
+- **Opção "Autorizo empresas parceiras do SENAC a entrarem em contato comigo"** no currículo
+- **Competências em formato de tags escaneáveis por IA** — palavras-chave claramente destacadas para identificação automática de habilidades
+
+### 📊 Avaliações
+- **Opção de avaliação por grupo ou individual**
+- **Opção de adicionar mais critérios de avaliação e avaliações**
+- **Notas com cores diferentes** por faixa de desempenho
+- **Filtro de notas** — do melhor para o pior desempenho, com legenda de menções coloridas
+
+### 🤝 Projetos e Parcerias
+- **Opção "Autorizar empresas parceiras a visualizar este projeto"** na tela de submissão de projeto
+
+---
+
+## 📐 Especificações Técnicas e Regras de Negócio
+
+### Contexto do Sistema
+
+- Somente o **Administrador** pode criar novos perfis de usuários para Professores e Alunos.
+- O **Professor não pode cadastrar novos usuários** no sistema e, consequentemente, **não deve ter acesso à tela de cadastro de usuários**.
+- **Todo campo obrigatório deve ter sinalização visual visível para o usuário**, indicando que o preenchimento é necessário.
+
+---
+
+### Tela de Login
+
+A tela de login deve conter:
+
+**Campos obrigatórios:**
+- E-mail
+- Senha
+
+**Recursos de usabilidade:**
+- Opção de **mostrar/ocultar senha** (ícone de olho)
+- **Seleção de perfil** para usuários com múltiplos papéis:
+  - Aluno
+  - Professor
+  - Administrador
+  - Coordenador
+- A **alternância de perfil só é exibida** para usuários que possuam mais de um perfil cadastrado
+
+**Mensagens de erro:**
+- Credenciais inválidas
+- Campos obrigatórios vazios
+
+---
+
+### Regras de Cadastro de Usuários
+
+- O cadastro de usuários é feito **somente pelo Administrador**.
+- O Administrador pode criar perfis para: **Aluno**, **Professor**, **Administrador** e **Coordenador**.
+- O Professor **não pode criar** novos usuários e não deve ter acesso à tela de cadastro de usuários.
+- **Deve existir no mínimo 2 Administradores/Coordenadores** cadastrados e ativos no sistema a qualquer momento.
+
+**Permissões por perfil:**
+
+| Perfil | Permissões |
+|---|---|
+| **Administrador / Coordenador** | Acesso total ao sistema |
+| **Professor** | Acesso restrito — sem permissão para cadastrar usuários |
+| **Aluno** | Acesso somente às funções permitidas ao seu perfil |
+
+---
+
+### Campos Obrigatórios no Cadastro
+
+Campos exigidos no momento em que o Administrador cadastra um usuário:
+
+| Campo | Observação |
+|---|---|
+| **Cargo** | Aluno / Professor / Administrador / Coordenador |
+| **CPF** | — |
+| **Nome** | — |
+| **Sobrenome** | — |
+| **Nome Social** | Não obrigatório, mas pode ser preenchido e reutilizado em todo o sistema |
+| **E-mail institucional / E-mail primário** | — |
+| **Matrícula** | Obrigatória apenas para Aluno |
+| **Status do Perfil** | Ativo / Inativo |
+
+---
+
+### Campos Não Obrigatórios no Cadastro
+
+Os campos abaixo podem ser preenchidos/modificados posteriormente nas configurações do perfil:
+
+- Identidade
+- Data de nascimento
+- Telefone / celular (2 opções)
+- CEP
+- Endereço completo (rua, número, complemento)
+- Bairro
+- Cidade e estado
+- País
+- Foto de perfil
+
+---
+
+### Regras de E-mail
+
+| Regra | Detalhe |
+|---|---|
+| O **e-mail primário** é o e-mail institucional do usuário | — |
+| O **e-mail primário não pode ser alterado** pelo próprio usuário | Somente o Administrador pode alterá-lo |
+| O **e-mail secundário não é obrigatório** no cadastro | — |
+| O **e-mail secundário pode ser alterado** pelo próprio usuário | Via tela de Configurações do perfil |
+
+---
+
+### Tela de Configurações do Perfil
+
+A área de **Configurações do Perfil** deve permitir:
+
+- Edição e visualização de todos os **campos não obrigatórios** do cadastro
+- Visualização de todos os **campos obrigatórios** do cadastro
+- Envio e modificação da **foto de perfil** (mesma usada no currículo)
+- Edição do **e-mail secundário** pelo próprio usuário
+- Edição de dados pessoais (**exceto e-mail primário**, que só o Administrador altera)
+- Exibição dos dados principais do perfil:
+  - Cargo
+  - Nome e Nome Social
+  - CPF e Identidade
+  - E-mails (primário e secundário)
+  - **Data de criação** e **último login** (gerados automaticamente, somente visualização)
+
+---
+
+### Tela de Criação de Currículo/Portfólio
+
+Disponível para **Professores** e **Alunos**. O usuário pode editar todas as informações relevantes e visualizar em tempo real como o currículo/portfólio será exibido para um possível contratante.
+
+> As **palavras-chave de competências** devem ser claramente destacadas (tags, chips ou blocos), de forma que uma IA consiga identificar imediatamente as habilidades do candidato.
+
+---
+
+#### 👤 Dados Pessoais e Contato
+
+| Campo | Obrigatório | Compartilhado com toda a conta |
+|---|:---:|:---:|
+| Nome completo | ✅ | ✅ |
+| Nome Social | — | ✅ |
+| Telefone principal (celular) + campo WhatsApp (sim/não) | ✅ | ✅ |
+| Gênero | ✅ | ✅ |
+| Telefone secundário + campo WhatsApp (sim/não) | — | ✅ |
+| E-mail principal | ✅ | Exclusivo desta tela |
+| E-mail secundário | — | Exclusivo desta tela |
+| Cidade / Estado onde mora | — | — |
+| LinkedIn ou outro perfil profissional | — | Com opção de visibilidade no currículo |
+| Site | — | Com opção de visibilidade no currículo |
+| GitHub (link) | — | Com opção de visibilidade no currículo |
+| Portfólio (links) | — | Com opção de visibilidade no currículo |
+| Foto de perfil | — | Com opção de visibilidade no currículo |
+| Permissão para empresas entrarem em contato | — | Autorização explícita: Sim / Não |
+| País e Nacionalidade | ✅ | — |
+
+---
+
+#### 🕐 Horários e Disponibilidade de Contato
+
+- Melhor horário para contato: até **4 faixas de horário por dia** (7 dias da semana), com seleção de dias e opção de repetir o bloco para combinações diferentes
+- Disponibilidade de mudança (Sim/Não)
+- Disponibilidade de viagem (Sim/Não)
+
+---
+
+#### 🌈 Diversidade
+
+Campo de múltipla escolha com opção individual de visibilidade no currículo:
+
+- LGBTQIA+
+- Mulher
+- PCD – Pessoas com Deficiência
+- Negro
+- Pardo
+- Indígena
+
+---
+
+#### 💼 Tipo de Trabalho Buscado
+
+**Regime (múltipla escolha):** Jovem Aprendiz · Estágio · Trainee · CLT · PJ · Freelancer · Projeto · Temporário
+
+**Modalidade (múltipla escolha):** Presencial · Híbrido · 100% Remoto
+
+**Horários disponíveis para trabalho (múltipla escolha):**
+- Diurno
+- Noturno
+- Final de semana
+- Segunda a sexta
+- De ___ a ___ de ___ a ___ *(campo livre: dia da semana + hora)*
+
+**Período de disponibilidade:** campo de escrita livre (ex.: *"a partir de julho de 2026"*)
+
+**Pretensão salarial** (opcional, múltipla escolha — cada opção com visibilidade configurável):
+- Bolsa para cobrir deslocamento e alimentação
+- A considerar a partir de _____
+- Faixa salarial desejada: _____ a _____
+- Quero adquirir experiência prática na área
+
+---
+
+#### 📝 Sobre (Resumo do Currículo)
+
+Campo de texto livre com **até 2.600 caracteres**, com:
+- Contador de caracteres visível (usados / total)
+- Placeholder: *"Resuma sua experiência descrevendo e destacando o que é importante no seu currículo e sobre você, com foco profissional e objetivos. Lembre-se, esse é um campo de destaque para recrutadores lerem e você tem 2.600 caracteres"* — desaparece ao clicar para escrever
+
+---
+
+#### 1. Nível de Ensino e Formação Acadêmica
+
+| Campo | Observação |
+|---|---|
+| Nível de ensino | Ensino Médio, Técnico, Graduação, Bacharel, Tecnólogo, Pós-Graduação, Pós-Graduação lato/stricto sensu, Mestrado, Doutorado, MBA, Especialização, EJA, Educação Especial, Educação Profissional Técnica |
+| Curso | Escrita livre (ex.: "Técnico em Informática", "Engenharia de Software") |
+| Instituição de ensino | — |
+| Período atual ou "formado em ___" | — |
+| Situação | Cursando / Concluído / Trancado / Em Transferência |
+| Previsão de conclusão | Mês/Ano |
+| Aparecer no currículo | Sim / Não — por registro |
+
+---
+
+#### 2. Experiência Profissional e Estágios
+
+| Campo | Observação |
+|---|---|
+| Empresa ou projeto | — |
+| Cargo / função | — |
+| Período de início e fim | — |
+| Tipo | Estágio / Estágio não obrigatório / Voluntariado / Projeto de extensão / Freelancer / CLT |
+| Descrição breve das atividades e resultados | — |
+| Aparecer no currículo | Sim / Não — por registro |
+
+---
+
+#### 3. Licenças e Certificados
+
+| Campo | Observação |
+|---|---|
+| Nome do certificado/licença | — |
+| Instituição / plataforma | — |
+| Data de obtenção | — |
+| Válida até | Se aplicável |
+| Aparecer no currículo | Sim / Não — por registro |
+
+---
+
+#### 4. Projetos
+
+| Campo | Observação |
+|---|---|
+| Nome do projeto | — |
+| Descrição do projeto | — |
+| Responsabilidades / função | — |
+| Tecnologias / ferramentas usadas | — |
+| Resultado / impacto | — |
+| Link para o projeto | GitHub, site, vídeo, apresentação, etc. |
+| Aparecer no currículo | Sim / Não — por registro |
+
+---
+
+#### 5. Outros Cursos
+
+| Campo | Observação |
+|---|---|
+| Nome do curso | — |
+| Instituição / plataforma | ex.: Alura, Udemy, FIAP |
+| Data de conclusão | — |
+| Aparecer no currículo | Sim / Não — por registro |
+
+---
+
+#### 6. Habilidades
+
+- **Hard Skills / Habilidades técnicas:** campos de escrita livre com seleção de nível (básico, intermediário, avançado, fluente); inclui campo específico "Linguagens / ferramentas" (ex.: Python, Excel, Figma, JavaScript)
+- **Soft Skills / Habilidades comportamentais:** campos de escrita livre (ex.: liderança, comunicação, trabalho em equipe)
+- Cada habilidade deve ser exibida em **formato de tag/chip**, facilmente escaneável por IA
+
+---
+
+#### 7. Idiomas
+
+| Campo | Opções |
+|---|---|
+| Idioma | Escrita livre |
+| Nível | Iniciante · Básico · Intermediário · Avançado · Fluente · Nativo |
+
+---
+
+## 🎨 Sistema de Notas
+
+As notas exibidas ao aluno possuem **codificação visual por cores** e **filtro de ordenação do melhor para o pior**, tornando a leitura dos resultados mais intuitiva e acessível.
+
+| Sigla | Descrição | Faixa | Cor |
+|:---:|---|:---:|:---:|
+| **AE** | Atendido com Excelência | 9,5 — 10 | 🟢 VERDE |
+| **O** | Ótimo | 8,0 — 9,4 | 🔵 AZUL |
+| **B** | Bom | 6,5 — 7,9 | 🟡 AMARELO |
+| **ANS** | Ainda Não Suficiente | 4,0 — 6,4 | 🟠 LARANJA |
+| **I** | Insuficiente | 0,0 — 3,9 | 🔴 VERMELHO |
 
 ---
 
@@ -227,8 +539,8 @@ O Observatório de Projetos Integradores foi projetado para três perfis complem
 - Faixa etária: 18 a 45 anos
 - Realiza upload de arquivos, adiciona link de vídeo e descrição do projeto
 - Acompanha o status de aprovação da submissão em tempo real
-- Visualiza feedback e nota final do professor
-- Monta e compartilha seu currículo/portfólio profissional
+- Visualiza feedback e nota final do professor (com codificação por cores e filtro de ordenação)
+- Monta e compartilha seu currículo/portfólio profissional com preview em tempo real
 - Uso semestral, concentrado nos períodos de entrega
 
 </details>
@@ -241,6 +553,7 @@ O Observatório de Projetos Integradores foi projetado para três perfis complem
 - Avalia por rubrica: Funcionalidade, Documentação e Criatividade (0 a 10)
 - Fornece comentários de feedback detalhados
 - Acesso ao repositório histórico para referência acadêmica
+- **Não possui acesso à tela de cadastro de usuários**
 - Uso semestral, no período de avaliação
 
 </details>
@@ -253,23 +566,10 @@ O Observatório de Projetos Integradores foi projetado para três perfis complem
 - Cadastra, edita e gerencia perfis de alunos e professores
 - Ativa e desativa perfis sem excluí-los permanentemente
 - Único com permissão para alterar o e-mail primário de um usuário
+- Garante que sempre haja no mínimo 2 Administradores/Coordenadores ativos
 - Uso contínuo, com maior intensidade nos períodos de entrega
 
 </details>
-
----
-
-## 🎨 Sistema de Notas
-
-As notas exibidas ao aluno possuem **codificação visual por cores** e **filtro de ordenação do melhor para o pior**, tornando a leitura dos resultados mais intuitiva e acessível.
-
-| Sigla | Descrição | Faixa | Cor |
-|:---:|---|:---:|:---:|
-| **AE** | Atendido com Excelência | 9,5 — 10 | 🟢 VERDE |
-| **O** | Ótimo | 8,0 — 9,4 | 🔵 AZUL |
-| **B** | Bom | 6,5 — 7,9 | 🟡 AMARELO |
-| **ANS** | Ainda Não Suficiente | 4,0 — 6,4 | 🟠 LARANJA |
-| **I** | Insuficiente | 0,0 — 3,9 | 🔴 VERMELHO |
 
 ---
 
@@ -297,9 +597,10 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 <div align="center">
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Ktor](https://img.shields.io/badge/Ktor-0095D5?style=for-the-badge&logo=ktor&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![YouTrack](https://img.shields.io/badge/YouTrack-000000?style=for-the-badge&logo=youtrack&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -308,10 +609,11 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 | Camada | Tecnologia |
 |---|---|
-| **Backend** | Kotlin + Ktor |
-| **Banco de Dados** | SQL (modelagem relacional) |
-| **Gerenciamento de Projeto** | YouTrack |
-| **Design / Prototipação** | Figma / FigmaMaker |
+| **Backend** | PHP |
+| **Frontend** | HTML + Bootstrap |
+| **Banco de Dados** | MySQL |
+| **Gerenciamento de Projeto** | [YouTrack](https://grupotp.youtrack.cloud/projects) |
+| **Design / Prototipação** | [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) |
 | **Versionamento** | Git / GitHub |
 | **Segurança** | HTTPS, autenticação por perfil, conformidade LGPD |
 
@@ -321,7 +623,7 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 <div align="center">
 
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Equipe_Prot%C3%B3tipo.png" width="100%" alt="Slide: Equipe e Protótipo" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/EquipeProtótipo.png" width="100%" alt="Slide: Equipe e Protótipo" />
 
 </div>
 
@@ -329,11 +631,27 @@ O protótipo de alta fidelidade foi desenvolvido no **FigmaMaker**, contemplando
 
 <div align="center">
 
-[![Ver Protótipo no Figma](https://img.shields.io/badge/Ver%20Prot%C3%B3tipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/6PLVp9KMc4E00q1DhgzxM0/OBSERVATORIO-DE-PROJETOS-INTEGRADORES-FACULDADE-SENAC?fullscreen=1&t=EgHVDl4rL7Kb4xUX-1&preview-route=%2Flogin)
+[![Ver Protótipo no Figma](https://img.shields.io/badge/Ver%20Prot%C3%B3tipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10)
 
 [![Ver Repositório no GitHub](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio%20no%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
 
 </div>
+
+---
+
+## 🔑 Credenciais Padrão de Demonstração
+
+Credenciais válidas para o [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) e para o Aplicativo Observatório de Projetos Integradores — Senac Recife · 2026
+
+> 🌐 Aplicativo programado: [https://grupotp.polyclub.com.br/](https://grupotp.polyclub.com.br/)
+
+| Perfil | E-mail | Senha |
+|---|---|---|
+| Aluno | aluno@aluno | senac123 |
+| Parceiro | parceiro@parceiro | senac123 |
+| Aluno 2 | aluno2@aluno | senac123 |
+| Professor | professor@professor | senac123 |
+| Administrador | admin@admin | senac123 |
 
 ---
 
@@ -373,7 +691,7 @@ Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
 ---
 
-<div align="center">
+### Thayná Batista da Silva
 
   <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -383,11 +701,9 @@ Quer saber mais sobre o projeto ou entrar em contato? 🤝
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
-</div>
-
 📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
 
-📱 **Phone:** +55 (81) 97912-6121 📞
+📱 **Telefone:** +55 (81) 97912-6121 📞
 
 ---
 
@@ -402,8 +718,12 @@ Senac Recife-PE Faculty | Systems Analysis and Development 🎓
 
 </div>
 
+</div>
+
 ---
-## 📄 License
+
+## 📄 Licença
+
 <div align="center">
 
 **Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Observatório de Projetos Integradores. Todos os direitos reservados.**
@@ -417,426 +737,3 @@ durante o curso de **Análise e Desenvolvimento de Sistemas**
 </div>
 
 ---
-
-</div>
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Senac_logo.svg.png" width="140" alt="Senac Logo" />
-
-# 🎓 Integrative Projects Observatory
-
-**Faculdade Senac Recife · Systems Analysis and Development Course**
-
-*January – June 2026*
-
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![Institution](https://img.shields.io/badge/Faculdade-Senac%20Recife-red?style=for-the-badge)
-![Course](https://img.shields.io/badge/Course-ADS-blue?style=for-the-badge)
-![Year](https://img.shields.io/badge/2026-Jan%20–%20Jun-purple?style=for-the-badge)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Capa.png?raw=true" width="100%" alt="Project Cover — Integrative Projects Observatory" />
-
-</div>
-
----
-
-## 📋 Index
-
-- [About the Project](#-about-the-project)
-- [The Problem](#-the-problem)
-- [The Solution — Features](#-the-solution--features)
-- [System Differentiators](#-system-differentiators)
-- [ESG Impact](#-esg-impact)
-- [Market](#-market)
-- [Benchmark](#-benchmark)
-- [Business Model](#-business-model)
-- [Target Audience](#-target-audience)
-- [User Profiles](#-user-profiles)
-- [Grading System](#-grading-system)
-- [Legislation and Compliance](#-legislation-and-compliance)
-- [Technologies](#-technologies)
-- [Prototype and Team](#-prototype-and-team)
-- [Team](#-team)
-- [Contact](#-contact)
-
----
-
-## 📖 About the Project
-
-The **Integrative Projects Observatory** is a web platform developed for **Faculdade Senac Recife**, designed to centralize and streamline the submission, validation, and evaluation of **Integrative Projects** for the **Systems Analysis and Development** course.
-
-The system replaces scattered, manual workflows with a unified repository of projects, accessible to:
-- **Students** — to build an official professional portfolio.
-- **Teachers and Coordinators** — to conduct structured academic evaluation.
-
-> _"A centralized platform for project submission, deadline tracking, rubric‑based feedback, and portfolio generation with achievement badges."_
-
-The platform offers tailored profiles for **Students**, **Teachers**, and **Administrators**, ensuring a structured workflow from project conception to final grade, with full traceability of all submissions.
-
----
-
-## 🚨 The Problem
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Problema.png" width="100%" alt="Slide: The Problem — 4 critical bottlenecks of the current process" />
-
-</div>
-
-The current process for submitting and evaluating Integrative Projects faces **4 critical bottlenecks**:
-
-| # | Bottleneck | Impact |
-|:---:|---|---|
-| 1 | **Fragmentation** | Information scattered across multiple channels and tools |
-| 2 | **Invisibility** | Projects lack institutional visibility and an organized portfolio |
-| 3 | **Rework** | Manual processes repeated every semester |
-| 4 | **Lack of Governance** | No control, traceability, or LGPD compliance |
-
-> _"These bottlenecks waste time, visibility, and institutional credibility."_
-
----
-
-## ✨ The Solution — Features
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades.png" width="100%" alt="Slide: System Features" />
-
-</div>
-
-The Observatory addresses these bottlenecks with a complete, modular system:
-
-| Module | What it delivers |
-|---|---|
-| 🖥️ **Dashboard** | Real‑time overview of submissions, deadlines, and status |
-| 📁 **Projects** | Upload of files (PDF/ZIP), demo video link, and project description |
-| 👤 **Profiles** | Management of Students, Teachers, and Administrators with distinct permissions |
-| 🔐 **Authentication** | Single‑sign‑on per profile, with primary and secondary email support |
-| 📊 **Reports** | Export of deliveries and evaluation history |
-| 🌐 **Public Observatory** | Institutional showcase of approved projects |
-
----
-
-## 🚀 System Differentiators
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Funcionalidades%20Diferenciais.png" width="100%" alt="Slide: Unique Features of the Observatory" />
-
-</div>
-
-The Observatory includes original features that make it stand out in the academic context of **Faculdade Senac Recife**:
-
-### 🔐 Authentication and Access
-- **Multiple login emails** — institutional email (primary) or student‑chosen email (secondary), both valid for login.
-- **Profile selection screen** — users with multiple roles (Student, Teacher, Administrator) choose which profile to use per session.
-
-### 🛡️ Administration Rules
-- **Minimum of 2 Admins** — actions that reduce active admins below 2 are blocked, preventing total lockout.
-- **Admin recovery** — dedicated recovery mechanism if all admin accounts are lost.
-- **Admin‑only registration** — only Administrators can create new users.
-- **Activate / Deactivate profiles** — suspend a profile without deleting it, preserving all history and data.
-
-### ⚙️ Settings and Personalization
-- **Social Name** — registered and editable in settings, automatically reused across the system.
-- **Two phone numbers** — up to 2 contact numbers can be stored in user settings.
-- **Usage records** — account creation date and last login displayed automatically on the settings screen.
-
-### 🧭 Navigation and Interface
-- **Universal back icon** — present on every page for every profile, returning to the current profile’s Home page.
-- **Floating menu** — available on all pages, with a header containing the Senac logo and the current panel name.
-
-### 📝 Forms and Validation
-- **Visual required‑field indicators** — clear visual cues on all mandatory fields, reducing submission errors.
-
-### 🎓 CV and Portfolio
-- **Dedicated CV/Portfolio screen** — real‑time preview for Students and Teachers, with competencies shown as AI‑scannable tags.
-
----
-
-## 🌱 ESG Impact
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/ESG.png" width="100%" alt="Slide: ESG Impact of the Project" />
-
-</div>
-
-The Integrative Projects Observatory was designed with responsibility across three dimensions:
-
-| Dimension | Action |
-|---|---|
-| 🌿 **Environmental (E)** | Eliminates physical printing and redundant emails; fully digitizes the academic workflow |
-| 🤝 **Social (S)** | Provides an official digital portfolio for students, boosting professional opportunities |
-| 🏛️ **Governance (G)** | LGPD‑compliant access control, audit logs, and structured data governance |
-
----
-
-## 📈 Market
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Mercado.png" width="100%" alt="Slide: Market Analysis" />
-
-</div>
-
-- 💰 By 2025, the edtech market invested **US$ 340 million** in Brazil.  
-- 🌎 Brazil ranks among the top countries in the **Global Digital Education Ranking**.  
-- 🏫 Senac has over **500 units** nationwide — making the Observatory a **highly scalable, replicable solution**.
-
----
-
-## 🔍 Benchmark
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Benchmark.png" width="100%" alt="Slide: Why the Observatory?" />
-
-</div>
-
-### Why build the Observatory instead of using existing tools?
-
-| Criterion | Google Classroom | Moodle | GitHub + Drive | ✅ **Observatory** |
-|---|:---:|:---:|:---:|:---:|
-| Focused on integrative projects | ❌ | ❌ | ❌ | ✅ |
-| Public portfolio | ❌ | ❌ | Partial | ✅ |
-| Multiple profiles with permissions | Partial | Partial | ❌ | ✅ |
-| Native LGPD compliance | ❌ | ❌ | ❌ | ✅ |
-| Integrated management (submission + validation + evaluation) | ❌ | Partial | ❌ | ✅ |
-
-> _The Observatory outperforms generic tools in institutional focus, governance, and portfolio‑oriented flows._
-
----
-
-## 💼 Business Model
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Modelo%20de%20Neg%C3%B3cio.png" width="100%" alt="Slide: Business Model" />
-
-</div>
-
-**Value delivered to Senac:**
-- Drastically reduced rework in semester‑based evaluation cycles.
-- A scalable product that can be replicated across other Senac units (SaaS‑like model).
-
-**Value delivered to Students:**
-- Official, traceable portfolio linked to the institution.
-- Visibility to **partner companies** through the public Observatory.
-
----
-
-## 🎯 Target Audience
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/P%C3%BAblico%20Alvo.png" width="100%" alt="Slide: Target Audience" />
-
-</div>
-
-> _"Transforming academic management into institutional intelligence."_
-
-The Integrative Projects Observatory targets three complementary profiles at **Faculdade Senac Recife**:
-
-<details>
-<summary><strong>🎓 Student</strong></summary>
-
-- Age range: 18–45 years.
-- Uploads project files, demo video link, and description.
-- Tracks submission approval status in real time.
-- Views feedback and final grades from professors.
-- Builds and shares a professional CV/portfolio.
-- Uses the platform mainly during submission periods each semester.
-
-</details>
-
-<details>
-<summary><strong>👩‍🏫 Teacher</strong></summary>
-
-- Age range: 25–65 years.
-- Accesses a list of projects approved by Coordinators/Administrators.
-- Grades via rubric (Functionality, Documentation, Creativity; 0–10).
-- Leaves detailed feedback comments.
-- Can consult the historical repository for academic reference.
-- Uses the platform mainly during evaluation periods.
-
-</details>
-
-<details>
-<summary><strong>🏛️ Coordinator / Administrator</strong></summary>
-
-- Age range: 30–60 years.
-- Validates submissions: approves or rejects projects for evaluation.
-- Registers, edits, and manages student and teacher profiles.
-- Activates and deactivates profiles without permanent deletion.
-- Only user allowed to change a user’s primary email.
-- Uses the platform continuously, with higher activity during submission seasons.
-
-</details>
-
----
-
-## 🎨 Grading System
-
-Grades shown to students are **color‑coded** and support **sorting from best to worst**, making results more intuitive and accessible.
-
-| Abbreviation | Description | Range | Color |
-|:---:|---|:---:|:---:|
-| **AE** | Met with Excellence | 9.5 — 10 | 🟢 GREEN |
-| **O**  | Great | 8.0 — 9.4 | 🔵 BLUE |
-| **B**  | Good | 6.5 — 7.9 | 🟡 YELLOW |
-| **ANS** | Not Yet Sufficient | 4.0 — 6.4 | 🟠 ORANGE |
-| **I**  | Insufficient | 0.0 — 3.9 | 🔴 RED |
-
----
-
-## ⚖️ Legislation and Compliance
-
-The system was developed in full compliance with current Brazilian legislation:
-
-- 🔒 **LGPD — Law No. 13.709/2018** · Protects personal data of students and teachers, with audit logs, access control, and consent management for sensitive data.  
-- 🌐 **Marco Civil da Internet — Law No. 12.965/2014** · Ensures retention of access records and user privacy.  
-- 🎓 **LDB — Law No. 9.394/1996** · Follows national educational guidelines and academic confidentiality standards.  
-- ✍️ **Copyright Law — Law No. 9.610/1998** · Guarantees authorship rights for all student‑submitted projects.  
-- 🏫 **Senac Recife internal regulations** · Adheres to academic rules and institutional IT policies.
-
----
-
-## 🛠️ Technologies
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Encerramento.png" width="100%" alt="Slide: Closing — Tech Stack" />
-
-</div>
-
-The platform centralizes submission, validation, and evaluation of Integrative Projects, built with full LGPD compliance and the following technologies:
-
-<div align="center">
-
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Ktor](https://img.shields.io/badge/Ktor-0095D5?style=for-the-badge&logo=ktor&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![YouTrack](https://img.shields.io/badge/YouTrack-000000?style=for-the-badge&logo=youtrack&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-| Layer | Technology |
-|---|---|
-| **Backend** | Kotlin + Ktor |
-| **Database** | SQL (relational modeling) |
-| **Project Management** | YouTrack |
-| **Design / Prototyping** | Figma / FigmaMaker |
-| **Versioning** | Git / GitHub |
-| **Security** | HTTPS, profile‑based authentication, LGPD compliance |
-
----
-
-## 🖥️ System and Team
-
-<div align="center">
-
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/EquipeProtótipo.png" />
-
-</div>
-
-The high‑fidelity prototype was developed in **FigmaMaker**, covering all main user flows for each profile.
-
-<div align="center">
-
-[![View Prototype on Figma](https://img.shields.io/badge/View%20Prototype%20on%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/6PLVp9KMc4E00q1DhgzxM0/OBSERVATORIO-DE-PROJETOS-INTEGRADORES-FACULDADE-SENAC?fullscreen=1&t=EgHVDl4rL7Kb4xUX-1&preview-route=%2Flogin)
-
-[![View Repository on GitHub](https://img.shields.io/badge/View%20Repository%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
-
-</div>
-
----
-
-## 👩‍💻 Team
-
-<div align="center">
-
-### Polyana Fontes  
-**Full Stack Developer · Database Modeling · Technical Documentation**
-
-Student of Systems Analysis and Development  
-Faculdade Senac Recife-PE  
-
----
-
-### Thayná Batista da Silva  
-**Manager / Requirements Analyst · Scrum Master**  
-**Product Designer · High‑fidelity Prototyping (Figma)**
-
-Student of Systems Analysis and Development  
-Faculdade Senac Recife‑PE · Class 2025 · Expected graduation: 2027  
-
-</div>
-
----
-
-## 📬 Contact
-Want to know more about the project or get in touch? 🤝
-
-<div align="center">
-
-### Polyana Fontes
-
-<a href="https://github.com/Polyana-Fontes" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
----
-
-<div align="center">
-
-  <a href="https://br.linkedin.com/in/thaynabds" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  
-  <a href="https://www.instagram.com/thaynabdstec/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-
-</div>
-
-📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
-
-📱 **Phone:** +55 (81) 97912-6121 📞
-
----
-
-<div align="center">
-
-### 👤 Thayná Batista da Silva
-**Scrum Master • Product Designer • Requirements Analyst** 💼
-
-Senac Recife-PE Faculty | Systems Analysis and Development 🎓
-
-![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
-
-</div>
-
----
-
-## 📄 License
-<div align="center">
-
-**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Integrative Projects Observatory. All rights reserved.**
-
-Made with 💜 by **Thayná Batista da Silva** and **Polyana Fontes**  
-during the **Systems Analysis and Development** course  
-**Faculdade Senac Recife · 2026**
-
-*Course Component: Requirements Engineering · Instructor: Sonia Gomes de Oliveira*
-
-</div>
