@@ -741,11 +741,11 @@ The platform centralizes submission, validation, and evaluation of Integrative P
 
 ---
 
-## 🖥️ Prototype and Team
+## 🖥️ System and Team
 
 <div align="center">
 
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Equipe_Prot%C3%B3tipo.png" width="100%" alt="Slide: Team and Prototype" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/EquipeProtótipo.png" />
 
 </div>
 
