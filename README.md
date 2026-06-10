@@ -289,7 +289,7 @@ O sistema foi desenvolvido em plena conformidade com a legislação brasileira v
 
 <div align="center">
 
-<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Encerramento.png" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
+<img src="https://github.com/GrupoTP/Sistema-de-Envio-e-Armazenamento-dos-Projetos-ADS/blob/main/Encerramento%20.png" width="100%" alt="Slide: Encerramento — Stack Tecnológica" />
 
 </div>
 
