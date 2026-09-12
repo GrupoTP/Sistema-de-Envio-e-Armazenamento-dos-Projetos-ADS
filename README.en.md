@@ -77,7 +77,7 @@
 
 The **Integrative Projects Observatory** is a web platform developed for **Senac Recife College**, aimed at centralizing and organizing the submission, validation, and evaluation of Integrative Projects from the **Systems Analysis and Development** program.
 
-The system addresses the need to replace manual and decentralized processes, providing a historical project repository accessible to students — for building professional portfolios — and to professors — for structured academic evaluation.
+The system addresses the need to replace manual and decentralized processes, providing a historical project repository accessible to students, for building professional portfolios, and to professors, for structured academic evaluation.
 
 > _"Centralized platform for submission, deadline tracking, rubric-based feedback, and portfolio generation with achievement badges."_
 
@@ -138,40 +138,40 @@ We addressed the bottlenecks with a complete system organized in modules:
 The Observatory was built with original features that make it unique within the academic context of Senac Recife College:
 
 ### 🔐 Authentication and Access
-- **Multiple login authentication** — institutional email (primary) **or** student-chosen email (secondary), both functional for login
-- **Profile selection screen** — users who hold multiple roles (Student, Professor, Administrator, Coordinator) choose which profile to use each session
-- **Profile switching** — available only for users who have more than one registered profile
+- **Multiple login authentication**, institutional email (primary) or student-chosen email (secondary), both functional for login
+- **Profile selection screen**, users who hold multiple roles (Student, Professor, Administrator, Coordinator) choose which profile to use each session
+- **Profile switching**, available only for users who have more than one registered profile
 
 ### 🛡️ Administration Rules
-- **Mandatory minimum of 2 Admins/Coordinators** — the system blocks actions that would reduce active administrators/coordinators below 2, preventing a total lockout
-- **Admin recovery** — special mechanism to restore access if all administrative accounts are lost
-- **Admin-exclusive registration screen** — only the Administrator can create new users; Professors **do not have access** to the user registration screen
-- **Activate / Deactivate profiles** — the Admin can suspend a profile without deleting it, preserving all linked history and data
+- **Mandatory minimum of 2 Admins/Coordinators**, the system blocks actions that would reduce active administrators/coordinators below 2, preventing a total lockout
+- **Admin recovery**, special mechanism to restore access if all administrative accounts are lost
+- **Admin-exclusive registration screen**, only the Administrator can create new users; Professors do not have access to the user registration screen
+- **Activate / Deactivate profiles**, the Admin can suspend a profile without deleting it, preserving all linked history and data
 
 ### ⚙️ Settings and Personalization
-- **Social Name** — can be registered and modified in settings, automatically reused throughout the system
-- **Two registerable phone numbers** — users can register up to 2 contact numbers in settings, each with an option to flag as WhatsApp
-- **Platform usage log** — account creation date and last login date displayed automatically on the settings screen
+- **Social Name**, can be registered and modified in settings, automatically reused throughout the system
+- **Two registerable phone numbers**, users can register up to 2 contact numbers in settings, each with an option to flag as WhatsApp
+- **Platform usage log**, account creation date and last login date displayed automatically on the settings screen
 
 ### 🧭 Navigation and Interface
-- **Universal back icon** — present on all pages of all profiles, always returning to the Home page of the current profile
-- **Floating menu on all pages** — accessible on any screen, displaying a header with the Senac icon and the name of the current Panel
+- **Universal back icon**, present on all pages of all profiles, always returning to the Home page of the current profile
+- **Floating menu on all pages**, accessible on any screen, displaying a header with the Senac icon and the name of the current Panel
 
 ### 📝 Forms and Validation
-- **Visual indication of required fields** — every required field has a clear, immediate visual marker visible to the user, preventing submission errors
+- **Visual indication of required fields**, every required field has a clear, immediate visual marker visible to the user, preventing submission errors
 
 ### 🎓 Resume and Portfolio
 - **Dedicated Resume/Portfolio screen** for Professors and Students
 - **Real-time preview** of the resume/portfolio, updated as the user fills in the fields
-- **Per-field visibility option** — each piece of resume information can be configured to appear or not to recruiters
+- **Per-field visibility option**, each piece of resume information can be configured to appear or not to recruiters
 - **Option "I authorize SENAC partner companies to contact me"** on the resume
-- **Skills in AI-scannable tag format** — keywords clearly highlighted for automatic skill identification
+- **Skills in AI-scannable tag format**, keywords clearly highlighted for automatic skill identification
 
 ### 📊 Evaluations
 - **Option for group or individual assessment**
 - **Option to add more evaluation criteria and assessments**
 - **Color-coded grades** by performance range
-- **Grade filter** — from best to worst performance, with color-coded mention legend
+- **Grade filter**, from best to worst performance, with color-coded mention legend
 
 ### 🤝 Projects and Partnerships
 - **Option "Authorize partner companies to view this project"** on the project submission screen
@@ -223,7 +223,7 @@ The login screen must contain:
 | Profile | Permissions |
 |---|---|
 | **Administrator / Coordinator** | Full system access |
-| **Professor** | Restricted access — no permission to register users |
+| **Professor** | Restricted access, no permission to register users |
 | **Student** | Access only to functions permitted for their profile |
 
 ---
@@ -334,7 +334,7 @@ Multiple choice field with individual visibility option per item on the resume:
 
 - LGBTQIA+
 - Woman
-- PwD – Person with Disability
+- PwD, Person with Disability
 - Black
 - Mixed-race (Pardo)
 - Indigenous
@@ -356,7 +356,7 @@ Multiple choice field with individual visibility option per item on the resume:
 
 **Availability period:** free text field (e.g.: *"starting July 2026"*)
 
-**Salary expectation** (optional, multiple choice — each option with configurable visibility):
+**Salary expectation** (optional, multiple choice, each option with configurable visibility):
 - Stipend to cover transportation and meals
 - Open to offers starting from _____
 - Desired salary range: _____ to _____
@@ -368,7 +368,7 @@ Multiple choice field with individual visibility option per item on the resume:
 
 Free text field with **up to 2,600 characters**, including:
 - Visible character counter (used / total)
-- Placeholder: *"Summarize your experience by describing and highlighting what is important in your resume and about you, with a professional focus and goals. Remember, this is a highlight field for recruiters to read and you have 2,600 characters"* — disappears when clicked to write
+- Placeholder: *"Summarize your experience by describing and highlighting what is important in your resume and about you, with a professional focus and goals. Remember, this is a highlight field for recruiters to read and you have 2,600 characters"*, disappears when clicked to write
 
 ---
 
@@ -382,7 +382,7 @@ Free text field with **up to 2,600 characters**, including:
 | Current period or "graduated in ___" | — |
 | Status | Enrolled / Completed / On Hold / Transferring |
 | Expected graduation | Month/Year |
-| Show on resume | Yes / No — per entry |
+| Show on resume | Yes / No, per entry |
 
 ---
 
@@ -395,7 +395,7 @@ Free text field with **up to 2,600 characters**, including:
 | Start and end period | — |
 | Type | Internship / Non-mandatory internship / Volunteering / Extension project / Freelancer / Full-time (CLT) |
 | Brief description of activities and results | — |
-| Show on resume | Yes / No — per entry |
+| Show on resume | Yes / No, per entry |
 
 ---
 
@@ -407,7 +407,7 @@ Free text field with **up to 2,600 characters**, including:
 | Institution / platform | — |
 | Date obtained | — |
 | Valid until | If applicable |
-| Show on resume | Yes / No — per entry |
+| Show on resume | Yes / No, per entry |
 
 ---
 
@@ -421,7 +421,7 @@ Free text field with **up to 2,600 characters**, including:
 | Technologies / tools used | — |
 | Result / impact | — |
 | Project link | GitHub, website, video, presentation, etc. |
-| Show on resume | Yes / No — per entry |
+| Show on resume | Yes / No, per entry |
 
 ---
 
@@ -432,7 +432,7 @@ Free text field with **up to 2,600 characters**, including:
 | Course name | — |
 | Institution / platform | e.g.: Alura, Udemy, FIAP |
 | Completion date | — |
-| Show on resume | Yes / No — per entry |
+| Show on resume | Yes / No, per entry |
 
 ---
 
@@ -495,7 +495,7 @@ The Integrative Projects Observatory was conceived with responsibility across th
 
 - 💰 By 2025, the market invested **US$ 340 million** in the educational technology sector
 - 🌎 Brazil holds a prominent position in the **World Digital Education Ranking**
-- 🏫 Senac has more than **500 units** in Brazil — making the Observatory a **highly replicable solution** at a national scale
+- 🏫 Senac has more than **500 units** in Brazil, making the Observatory a **highly replicable solution** at a national scale
 
 ---
 
@@ -595,10 +595,10 @@ The Integrative Projects Observatory was designed for three complementary profil
 
 The system was developed in full compliance with current Brazilian legislation:
 
-- 🔒 **LGPD — Law No. 13.709/2018** · Protection of personal data for students and professors, with audit logs, access control, and consent for sensitive data
-- 🌐 **Marco Civil da Internet — Law No. 12.965/2014** · Storage of access records and user privacy
-- 🎓 **LDB — Law No. 9.394/1996** · Educational guidelines and confidentiality of academic data
-- ✍️ **Copyright Law — Law No. 9.610/1998** · Protection of authorship of projects submitted by students
+- 🔒 **LGPD, Law No. 13.709/2018** · Protection of personal data for students and professors, with audit logs, access control, and consent for sensitive data
+- 🌐 **Marco Civil da Internet, Law No. 12.965/2014** · Storage of access records and user privacy
+- 🎓 **LDB, Law No. 9.394/1996** · Educational guidelines and confidentiality of academic data
+- ✍️ **Copyright Law, Law No. 9.610/1998** · Protection of authorship of projects submitted by students
 - 🏫 **Internal Policies of Senac Recife College** · Academic regulations and institutional IT policies
 
 ---
@@ -645,13 +645,33 @@ The platform centralizes submission, validation, and evaluation of Integrative P
 
 </div>
 
+<div align="center">
+
+<table>
+<tr>
+<td align="center" style="padding: 30px; border: 3px solid #22c55e;">
+
+## 🔗 Deploy Link for the Integrative Projects Observatory System
+
+### [🌐 grupotp.polyclub.com.br](https://grupotp.polyclub.com.br/)
+
+**Access the live application**
+
+[![ACCESS THE LIVE SYSTEM](https://img.shields.io/badge/🔗_ACCESS_THE_LIVE_SYSTEM-grupotp.polyclub.com.br-22c55e?style=for-the-badge&logoColor=white&labelColor=1a1a1a)](https://grupotp.polyclub.com.br/)
+
+</td>
+</tr>
+</table>
+
+</div>
+
 The high-fidelity prototype was developed in **FigmaMaker**, covering all main flows for each user profile.
 
 <div align="center">
 
-[![View Prototype on Figma](https://img.shields.io/badge/View%20Prototype%20on%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10)
+[![View Prototype on Figma](https://img.shields.io/badge/View%20Prototype%20on%20Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10)
 
-[![View Repository on GitHub](https://img.shields.io/badge/View%20Repository%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
+[![View Repository on GitHub](https://img.shields.io/badge/View%20Repository%20on%20GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
 
 </div>
 
@@ -659,9 +679,9 @@ The high-fidelity prototype was developed in **FigmaMaker**, covering all main f
 
 ## 🔑 Default Demo Credentials
 
-Credentials valid for [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) and for the Integrative Projects Observatory Application — Senac Recife · 2026
+Credentials valid for [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) and for the Integrative Projects Observatory Application, Senac Recife · 2026
 
-> 🌐 Scheduled application: [https://grupotp.polyclub.com.br/](https://grupotp.polyclub.com.br/)
+> 🔗 Deploy Link for the Integrative Projects Observatory System  [https://grupotp.polyclub.com.br/](https://grupotp.polyclub.com.br/)
 
 | Profile | Email | Password |
 |---|---|---|
@@ -697,7 +717,8 @@ Senac Recife-PE College · Class of 2025 · Expected graduation: 2027
 ---
 
 ## 📬 Contact
-Want to learn more about the project or get in touch? 🤝
+
+Want to learn more about the project or get in touch?
 
 <div align="center">
 
@@ -719,18 +740,18 @@ Want to learn more about the project or get in touch? 🤝
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
-📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
+📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com)
 
-📱 **Phone:** +55 (81) 97912-6121 📞
+📱 **Phone:** +55 (81) 97912-6121
 
 ---
 
 <div align="center">
 
 ### 👤 Thayná Batista da Silva
-**Scrum Master • Product Designer • Requirements Analyst** 💼
+**Scrum Master • Product Designer • Requirements Analyst**
 
-Senac Recife-PE Faculty | Systems Analysis and Development 🎓
+Senac Recife-PE Faculty | Systems Analysis and Development
 
 ![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
@@ -744,18 +765,12 @@ Senac Recife-PE Faculty | Systems Analysis and Development 🎓
 
 <div align="center">
 
-**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Integrative Projects Observatory. All rights reserved.**
+**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva, Integrative Projects Observatory. All rights reserved.**
 
 Made with 💜 by **Thayná Batista da Silva** and **Polyana Fontes**
 during the **Systems Analysis and Development** program
 **Senac Recife College · 2026**
 
 *Curricular Component: Requirements Engineering · Instructor: Sonia Gomes de Oliveira*
-
-</div>
-
-<div align="center">
-
-⬆️ <a href="README.md">Back to language selector</a>
 
 </div>
