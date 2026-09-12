@@ -77,7 +77,7 @@
 
 O **Observatório de Projetos Integradores** é uma plataforma web desenvolvida para a **Faculdade Senac Recife**, com o objetivo de centralizar e organizar a submissão, validação e avaliação dos Projetos Integradores do curso de **Análise e Desenvolvimento de Sistemas**.
 
-O sistema nasce da necessidade de substituir processos manuais e descentralizados, oferecendo um repositório histórico de projetos acessível a alunos — para composição de portfólio profissional — e a professores — para avaliação acadêmica estruturada.
+O sistema nasce da necessidade de substituir processos manuais e descentralizados, oferecendo um repositório histórico de projetos acessível a alunos, para composição de portfólio profissional, e a professores, para avaliação acadêmica estruturada.
 
 > _"Plataforma centralizada para submissão, acompanhamento de prazos, feedback por rubricas e geração de portfólio com selos de conquista."_
 
@@ -138,40 +138,40 @@ Solucionamos os gargalos com um sistema completo organizado em módulos:
 O Observatório foi desenvolvido com funcionalidades originais que o tornam único no contexto acadêmico da Faculdade Senac Recife:
 
 ### 🔐 Autenticação e Acesso
-- **Autenticação múltipla de login** — e-mail institucional (primário) **ou** e-mail escolhido pelo próprio aluno (secundário), ambos funcionais para login
-- **Tela de seleção de perfil** — usuários que acumulam múltiplos papéis (Aluno, Professor, Administrador, Coordenador) escolhem com qual perfil desejam acessar a cada sessão
-- **Alternância de perfil** — disponível apenas para usuários que possuam mais de um perfil cadastrado
+- **Autenticação múltipla de login**, e-mail institucional (primário) ou e-mail escolhido pelo próprio aluno (secundário), ambos funcionais para login
+- **Tela de seleção de perfil**, usuários que acumulam múltiplos papéis (Aluno, Professor, Administrador, Coordenador) escolhem com qual perfil desejam acessar a cada sessão
+- **Alternância de perfil**, disponível apenas para usuários que possuam mais de um perfil cadastrado
 
 ### 🛡️ Regras de Administração
-- **Mínimo obrigatório de 2 ADMs/Coordenadores** — o sistema bloqueia ações que reduzam os administradores/coordenadores ativos abaixo de 2, prevenindo travamento total
-- **Recuperação de ADM** — mecanismo especial de restauração de acesso caso todas as contas administrativas sejam perdidas
-- **Tela de cadastro exclusiva do ADM** — somente o Administrador pode criar novos usuários no sistema; o Professor **não tem acesso** à tela de cadastro de usuários
-- **Ativar / Desativar perfis** — o ADM pode suspender um perfil sem excluí-lo, preservando todo o histórico e dados vinculados
+- **Mínimo obrigatório de 2 ADMs/Coordenadores**, o sistema bloqueia ações que reduzam os administradores/coordenadores ativos abaixo de 2, prevenindo travamento total
+- **Recuperação de ADM**, mecanismo especial de restauração de acesso caso todas as contas administrativas sejam perdidas
+- **Tela de cadastro exclusiva do ADM**, somente o Administrador pode criar novos usuários no sistema, o Professor não tem acesso à tela de cadastro de usuários
+- **Ativar / Desativar perfis**, o ADM pode suspender um perfil sem excluí-lo, preservando todo o histórico e dados vinculados
 
 ### ⚙️ Configurações e Personalização
-- **Nome Social** — cadastrável e modificável nas configurações, reutilizado em todo o sistema automaticamente
-- **Dois telefones cadastráveis** — o usuário pode registrar até 2 números de contato nas configurações, ambos com opção de sinalizar que é WhatsApp
-- **Registro de utilização da plataforma** — data de criação da conta e data do último login exibidos automaticamente na tela de configurações
+- **Nome Social**, cadastrável e modificável nas configurações, reutilizado em todo o sistema automaticamente
+- **Dois telefones cadastráveis**, o usuário pode registrar até 2 números de contato nas configurações, ambos com opção de sinalizar que é WhatsApp
+- **Registro de utilização da plataforma**, data de criação da conta e data do último login exibidos automaticamente na tela de configurações
 
 ### 🧭 Navegação e Interface
-- **Ícone de voltar universal** — presente em todas as páginas de todos os perfis, retornando sempre à página Início do perfil atual
-- **Menu volante em todas as páginas** — acessível em qualquer tela, exibindo cabeçalho com o ícone do Senac e o nome do Painel em uso
+- **Ícone de voltar universal**, presente em todas as páginas de todos os perfis, retornando sempre à página Início do perfil atual
+- **Menu volante em todas as páginas**, acessível em qualquer tela, exibindo cabeçalho com o ícone do Senac e o nome do Painel em uso
 
 ### 📝 Formulários e Validação
-- **Sinalização visual de campos obrigatórios** — todo campo obrigatório possui marcação visual clara e imediata, visível para o usuário, evitando erros de submissão
+- **Sinalização visual de campos obrigatórios**, todo campo obrigatório possui marcação visual clara e imediata, visível para o usuário, evitando erros de submissão
 
 ### 🎓 Currículo e Portfólio
 - **Tela dedicada de Currículo/Portfólio** para Professores e Alunos
 - **Preview em tempo real** do currículo/portfólio, atualizado conforme o usuário preenche os campos
-- **Opção de visibilidade por campo** — cada informação do currículo pode ser configurada para aparecer ou não para contratantes
+- **Opção de visibilidade por campo**, cada informação do currículo pode ser configurada para aparecer ou não para contratantes
 - **Opção "Autorizo empresas parceiras do SENAC a entrarem em contato comigo"** no currículo
-- **Competências em formato de tags escaneáveis por IA** — palavras-chave claramente destacadas para identificação automática de habilidades
+- **Competências em formato de tags escaneáveis por IA**, palavras-chave claramente destacadas para identificação automática de habilidades
 
 ### 📊 Avaliações
 - **Opção de avaliação por grupo ou individual**
 - **Opção de adicionar mais critérios de avaliação e avaliações**
 - **Notas com cores diferentes** por faixa de desempenho
-- **Filtro de notas** — do melhor para o pior desempenho, com legenda de menções coloridas
+- **Filtro de notas**, do melhor para o pior desempenho, com legenda de menções coloridas
 
 ### 🤝 Projetos e Parcerias
 - **Opção "Autorizar empresas parceiras a visualizar este projeto"** na tela de submissão de projeto
@@ -223,7 +223,7 @@ A tela de login deve conter:
 | Perfil | Permissões |
 |---|---|
 | **Administrador / Coordenador** | Acesso total ao sistema |
-| **Professor** | Acesso restrito — sem permissão para cadastrar usuários |
+| **Professor** | Acesso restrito, sem permissão para cadastrar usuários |
 | **Aluno** | Acesso somente às funções permitidas ao seu perfil |
 
 ---
@@ -334,7 +334,7 @@ Campo de múltipla escolha com opção individual de visibilidade no currículo:
 
 - LGBTQIA+
 - Mulher
-- PCD – Pessoas com Deficiência
+- PCD, Pessoas com Deficiência
 - Negro
 - Pardo
 - Indígena
@@ -356,7 +356,7 @@ Campo de múltipla escolha com opção individual de visibilidade no currículo:
 
 **Período de disponibilidade:** campo de escrita livre (ex.: *"a partir de julho de 2026"*)
 
-**Pretensão salarial** (opcional, múltipla escolha — cada opção com visibilidade configurável):
+**Pretensão salarial** (opcional, múltipla escolha, cada opção com visibilidade configurável):
 - Bolsa para cobrir deslocamento e alimentação
 - A considerar a partir de _____
 - Faixa salarial desejada: _____ a _____
@@ -368,7 +368,7 @@ Campo de múltipla escolha com opção individual de visibilidade no currículo:
 
 Campo de texto livre com **até 2.600 caracteres**, com:
 - Contador de caracteres visível (usados / total)
-- Placeholder: *"Resuma sua experiência descrevendo e destacando o que é importante no seu currículo e sobre você, com foco profissional e objetivos. Lembre-se, esse é um campo de destaque para recrutadores lerem e você tem 2.600 caracteres"* — desaparece ao clicar para escrever
+- Placeholder: *"Resuma sua experiência descrevendo e destacando o que é importante no seu currículo e sobre você, com foco profissional e objetivos. Lembre-se, esse é um campo de destaque para recrutadores lerem e você tem 2.600 caracteres"*, desaparece ao clicar para escrever
 
 ---
 
@@ -382,7 +382,7 @@ Campo de texto livre com **até 2.600 caracteres**, com:
 | Período atual ou "formado em ___" | — |
 | Situação | Cursando / Concluído / Trancado / Em Transferência |
 | Previsão de conclusão | Mês/Ano |
-| Aparecer no currículo | Sim / Não — por registro |
+| Aparecer no currículo | Sim / Não, por registro |
 
 ---
 
@@ -395,7 +395,7 @@ Campo de texto livre com **até 2.600 caracteres**, com:
 | Período de início e fim | — |
 | Tipo | Estágio / Estágio não obrigatório / Voluntariado / Projeto de extensão / Freelancer / CLT |
 | Descrição breve das atividades e resultados | — |
-| Aparecer no currículo | Sim / Não — por registro |
+| Aparecer no currículo | Sim / Não, por registro |
 
 ---
 
@@ -407,7 +407,7 @@ Campo de texto livre com **até 2.600 caracteres**, com:
 | Instituição / plataforma | — |
 | Data de obtenção | — |
 | Válida até | Se aplicável |
-| Aparecer no currículo | Sim / Não — por registro |
+| Aparecer no currículo | Sim / Não, por registro |
 
 ---
 
@@ -421,7 +421,7 @@ Campo de texto livre com **até 2.600 caracteres**, com:
 | Tecnologias / ferramentas usadas | — |
 | Resultado / impacto | — |
 | Link para o projeto | GitHub, site, vídeo, apresentação, etc. |
-| Aparecer no currículo | Sim / Não — por registro |
+| Aparecer no currículo | Sim / Não, por registro |
 
 ---
 
@@ -432,7 +432,7 @@ Campo de texto livre com **até 2.600 caracteres**, com:
 | Nome do curso | — |
 | Instituição / plataforma | ex.: Alura, Udemy, FIAP |
 | Data de conclusão | — |
-| Aparecer no currículo | Sim / Não — por registro |
+| Aparecer no currículo | Sim / Não, por registro |
 
 ---
 
@@ -495,7 +495,7 @@ O Observatório de Projetos Integradores foi concebido com responsabilidade em t
 
 - 💰 Até 2025, o mercado investiu **US$ 340 milhões** no setor de tecnologia educacional
 - 🌎 O Brasil ocupa posição de destaque no **Ranking Mundial de Educação Digital**
-- 🏫 O Senac possui mais de **500 unidades** no Brasil — tornando o Observatório uma **solução altamente replicável** em escala nacional
+- 🏫 O Senac possui mais de **500 unidades** no Brasil, tornando o Observatório uma **solução altamente replicável** em escala nacional
 
 ---
 
@@ -645,13 +645,33 @@ A plataforma centraliza submissão, validação e avaliação de Projetos Integr
 
 </div>
 
+<div align="center">
+
+<table>
+<tr>
+<td align="center" style="padding: 30px; border: 3px solid #22c55e;">
+
+## 🔗 Site/Deploy do Sistema Observatório de Projetos Integradores
+
+### [🌐 grupotp.polyclub.com.br](https://grupotp.polyclub.com.br/)
+
+**Acesse a aplicação em produção**
+
+[![ACESSAR SISTEMA ONLINE](https://img.shields.io/badge/🔗_ACESSAR_SISTEMA_ONLINE-grupotp.polyclub.com.br-22c55e?style=for-the-badge&logoColor=white&labelColor=1a1a1a)](https://grupotp.polyclub.com.br/)
+
+</td>
+</tr>
+</table>
+
+</div>
+
 O protótipo de alta fidelidade foi desenvolvido no **FigmaMaker**, contemplando todos os fluxos principais de cada perfil de usuário.
 
 <div align="center">
 
-[![Ver Protótipo no Figma](https://img.shields.io/badge/Ver%20Prot%C3%B3tipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10)
+[![Ver Protótipo no Figma](https://img.shields.io/badge/Ver%20Prot%C3%B3tipo%20no%20Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10)
 
-[![Ver Repositório no GitHub](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio%20no%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
+[![Ver Repositório no GitHub](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio%20no%20GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Polyana-Fontes/Observatorio-de-Projetos-Integradores)
 
 </div>
 
@@ -659,9 +679,9 @@ O protótipo de alta fidelidade foi desenvolvido no **FigmaMaker**, contemplando
 
 ## 🔑 Credenciais Padrão de Demonstração
 
-Credenciais válidas para o [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) e para o Aplicativo Observatório de Projetos Integradores — Senac Recife · 2026
+Credenciais válidas para o [Figma / FigmaMaker](https://www.figma.com/make/XETVIneDIARTVrgXoidrN4/OBSERVAT%C3%93RIO-DE-PROJETOS-INTEGRADORES--SENAC-?fullscreen=1&t=vf5Kz8t2XzB1XtNc-1&code-node-id=0-10) e para o Aplicativo Observatório de Projetos Integradores, Senac Recife · 2026
 
-> 🌐 Aplicativo programado: [https://grupotp.polyclub.com.br/](https://grupotp.polyclub.com.br/)
+> 🔗 Site/Deploy do Sistema Observatório de Projetos Integradores  [https://grupotp.polyclub.com.br/](https://grupotp.polyclub.com.br/)
 
 | Perfil | E-mail | Senha |
 |---|---|---|
@@ -697,7 +717,7 @@ Faculdade Senac Recife-PE · Turma 2025 · Formação prevista: 2027
 ---
 
 ## 📬 Contato
-Quer saber mais sobre o projeto ou entrar em contato? 🤝
+Quer saber mais sobre o projeto ou entrar em contato?
 
 <div align="center">
 
@@ -719,18 +739,18 @@ Quer saber mais sobre o projeto ou entrar em contato? 🤝
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
-📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
+📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com)
 
-📱 **Telefone:** +55 (81) 97912-6121 📞
+📱 **Telefone:** +55 (81) 97912-6121
 
 ---
 
 <div align="center">
 
 ### 👤 Thayná Batista da Silva
-**Scrum Master • Product Designer • Requirements Analyst** 💼
+**Scrum Master • Product Designer • Requirements Analyst**
 
-Senac Recife-PE Faculty | Systems Analysis and Development 🎓
+Senac Recife-PE Faculty | Systems Analysis and Development
 
 ![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
@@ -744,7 +764,7 @@ Senac Recife-PE Faculty | Systems Analysis and Development 🎓
 
 <div align="center">
 
-**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva — Observatório de Projetos Integradores. Todos os direitos reservados.**
+**Copyright © 2026, Polyana Fontes; Thayná Batista da Silva, Observatório de Projetos Integradores. Todos os direitos reservados.**
 
 Feito com 💜 por **Thayná Batista da Silva** e **Polyana Fontes**
 durante o curso de **Análise e Desenvolvimento de Sistemas**
